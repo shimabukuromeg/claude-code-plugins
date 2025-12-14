@@ -1,0 +1,12 @@
+{
+  "name": "renovate-check",
+  "version": "1.0.0",
+  "description": "Renovate PR の依存関係更新を詳細にチェックし、日本語でレポートを作成する",
+  "author": {
+    "name": "shimabukuromeg",
+    "email": "noreply@github.com"
+  },
+  "repository": "https://github.com/shimabukuromeg/claude-code-plugins",
+  "license": "MIT",
+  "keywords": ["renovate", "dependencies", "pr-review", "automation", "japanese"]
+}

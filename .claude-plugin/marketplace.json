@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "shimabukuromeg-marketplace",
+  "version": "1.0.0",
+  "description": "shimabukuromeg's personal Claude Code plugin marketplace",
+  "owner": {
+    "name": "shimabukuromeg",
+    "email": "noreply@github.com"
+  },
+  "plugins": [
+    {
+      "name": "renovate-check",
+      "source": "./skills/renovate-check",
+      "description": "Renovate PR の依存関係更新を詳細にチェックし、日本語でレポートを作成する",
+      "version": "1.0.0",
+      "author": {
+        "name": "shimabukuromeg"
+      },
+      "keywords": ["renovate", "dependencies", "pr-review", "automation", "japanese"]
+    }
+  ]
+}
