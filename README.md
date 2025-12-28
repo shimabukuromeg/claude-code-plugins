@@ -42,6 +42,7 @@ Then in Claude Code:
 | Plugin | Description |
 |--------|-------------|
 | [renovate-check](skills/renovate-check/) | Renovate PR の依存関係更新を詳細にチェックし、日本語でレポートを作成する |
+| [summarize-conversation](skills/summarize-conversation/) | 会話の内容をマークダウンファイルにまとめて保存する |
 
 See each plugin's README for detailed usage and features.
 
@@ -54,11 +55,18 @@ This repository is organized as a plugin marketplace containing multiple plugins
 └── marketplace.json    # Marketplace metadata
 
 skills/
-└── renovate-check/     # renovate-check plugin
+├── renovate-check/           # renovate-check plugin
+│   ├── .claude-plugin/
+│   │   └── plugin.json
+│   ├── skills/
+│   │   └── renovate-check/
+│   │       └── SKILL.md
+│   └── README.md
+└── summarize-conversation/   # summarize-conversation plugin
     ├── .claude-plugin/
     │   └── plugin.json
     ├── skills/
-    │   └── renovate-check/
+    │   └── summarize-conversation/
     │       └── SKILL.md
     └── README.md
 

@@ -17,6 +17,16 @@
         "name": "shimabukuromeg"
       },
       "keywords": ["renovate", "dependencies", "pr-review", "automation", "japanese"]
+    },
+    {
+      "name": "summarize-conversation",
+      "source": "./skills/summarize-conversation",
+      "description": "会話の内容をマークダウンファイルにまとめて保存する",
+      "version": "1.0.0",
+      "author": {
+        "name": "shimabukuromeg"
+      },
+      "keywords": ["conversation", "summary", "markdown", "documentation", "japanese"]
     }
   ]
 }
