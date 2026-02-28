@@ -27,6 +27,16 @@
         "name": "shimabukuromeg"
       },
       "keywords": ["conversation", "summary", "markdown", "documentation", "japanese"]
+    },
+    {
+      "name": "n8n-business-automation",
+      "source": "./skills/n8n-business-automation",
+      "description": "n8n ワークフローによるビジネスプロセス自動化の構築・テストを支援する",
+      "version": "1.0.0",
+      "author": {
+        "name": "shimabukuromeg"
+      },
+      "keywords": ["n8n", "workflow", "automation", "webhook", "business-process"]
     }
   ]
 }
